@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="parameters">
+			<Prp name="key" type="S" value="{05C3B472-A2DA-4C69-9F7B-3FE68069CEAA}"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="testdata">
+			<Node name="children">
+				<Node name="child0">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Count"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="0"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="IgnoreRunning"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="0"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Timeout"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Runs the &quot;calc&quot; tested application."/>
+						<Prp name="testedapp" type="S" value="calc"/>
+					</Node>
+					<Prp name="type" type="S" value="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}"/>
+				</Node>
+				<Node name="child1">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator.btn8;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'btn8' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child2">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator.btn;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'btn' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child3">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator.btn3;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'btn3' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child4">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator.btn1;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'btn1' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child5">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="expression" type="S" value="Aliases.calc.wndCalculator.Edit.wText"/>
+								<Prp name="name" type="S" value="Property"/>
+								<Prp name="paramtype" type="S" value="{FC0DF733-E97F-46DD-8307-EA4DFF891298}"/>
+							</Node>
+							<Node name="parameter1">
+								<Node name="values">
+									<Prp name="value0type" type="I" value="1"/>
+									<Prp name="value0value" type="I" value="0"/>
+									<Prp name="value10type" type="I" value="1"/>
+									<Prp name="value10value" type="I" value="10"/>
+									<Prp name="value11type" type="I" value="1"/>
+									<Prp name="value11value" type="I" value="11"/>
+									<Prp name="value12type" type="I" value="1"/>
+									<Prp name="value12value" type="I" value="12"/>
+									<Prp name="value13type" type="I" value="1"/>
+									<Prp name="value13value" type="I" value="13"/>
+									<Prp name="value1type" type="I" value="1"/>
+									<Prp name="value1value" type="I" value="1"/>
+									<Prp name="value2type" type="I" value="1"/>
+									<Prp name="value2value" type="I" value="2"/>
+									<Prp name="value3type" type="I" value="1"/>
+									<Prp name="value3value" type="I" value="3"/>
+									<Prp name="value4type" type="I" value="1"/>
+									<Prp name="value4value" type="I" value="4"/>
+									<Prp name="value5type" type="I" value="1"/>
+									<Prp name="value5value" type="I" value="5"/>
+									<Prp name="value6type" type="I" value="1"/>
+									<Prp name="value6value" type="I" value="6"/>
+									<Prp name="value7type" type="I" value="1"/>
+									<Prp name="value7value" type="I" value="7"/>
+									<Prp name="value8type" type="I" value="1"/>
+									<Prp name="value8value" type="I" value="8"/>
+									<Prp name="value9type" type="I" value="1"/>
+									<Prp name="value9value" type="I" value="9"/>
+									<Prp name="valuetext0" type="S" value="cmpEqual"/>
+									<Prp name="valuetext1" type="S" value="cmpNotEqual"/>
+									<Prp name="valuetext10" type="S" value="cmpEndsWith"/>
+									<Prp name="valuetext11" type="S" value="cmpNotEndsWith"/>
+									<Prp name="valuetext12" type="S" value="cmpMatches"/>
+									<Prp name="valuetext13" type="S" value="cmpNotMatches"/>
+									<Prp name="valuetext2" type="S" value="cmpGreater"/>
+									<Prp name="valuetext3" type="S" value="cmpLess"/>
+									<Prp name="valuetext4" type="S" value="cmpGreaterOrEqual"/>
+									<Prp name="valuetext5" type="S" value="cmpLessOrEqual"/>
+									<Prp name="valuetext6" type="S" value="cmpContains"/>
+									<Prp name="valuetext7" type="S" value="cmpNotContains"/>
+									<Prp name="valuetext8" type="S" value="cmpStartsWith"/>
+									<Prp name="valuetext9" type="S" value="cmpNotStartsWith"/>
+								</Node>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Condition"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Value"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="5. "/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Node name="parameter3">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="-1"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="CaseSensitive"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="0"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter4">
+								<Node name="values">
+									<Prp name="value0type" type="I" value="1"/>
+									<Prp name="value0value" type="I" value="0"/>
+									<Prp name="value1type" type="I" value="1"/>
+									<Prp name="value1value" type="I" value="1"/>
+									<Prp name="value2type" type="I" value="1"/>
+									<Prp name="value2value" type="I" value="2"/>
+									<Prp name="value3type" type="I" value="1"/>
+									<Prp name="value3value" type="I" value="3"/>
+									<Prp name="valuetext0" type="S" value="lmNone"/>
+									<Prp name="valuetext1" type="S" value="lmMessage"/>
+									<Prp name="valuetext2" type="S" value="lmWarning"/>
+									<Prp name="valuetext3" type="S" value="lmError"/>
+								</Node>
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="2"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="MessageType"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="2"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Checks whether the property value matches the specified condition. "/>
+					</Node>
+					<Prp name="type" type="S" value="{9C6348D8-30A9-49C4-B62C-C7C750F009FF}"/>
+				</Node>
+				<Node name="child6">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="29"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="11"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (29, 11) of the 'wndCalculator' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child7">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="191"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="10"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (191, 10) of the 'wndCalculator' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child8">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.calc.wndCalculator;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="2000"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="WaitTimeout"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="2000"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Close"/>
+						<Prp name="description" type="S" value="Closes the 'wndCalculator' window."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Prp name="childcount" type="I" value="9"/>
+			</Node>
+			<Node name="data">
+				<Node name="extenders">
+					<Node name="{800193e8-4656-48c9-a7dc-10ff396c56a4}">
+						<Node name="bitmap0">
+							<Prp name="bitmap" type="H" value="617162696E00000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263"/>
+							<Prp name="name" type="S" value="Aliases.calc.wndCalculator"/>
+						</Node>
+						<Node name="bitmap1">
+							<Prp name="bitmap" type="H" value="617162696E000000010000003604000078016D93EB4FD35718C77171C9A6DBB298FD017BE10B5E197773CB5EEECD5EE962E22D71994EE79B411686B23546F0D75A2C6DBCE1863A20F4265B5B6EFD0185D6823FAA2DBFD2AB2DBDE80FC49622A1342D9796B6EB85EFCE0F6D42CC4EF23C3927E77CCEF37D9EF39C6F0E1ED859B5350E105F4DECC3D7B6A3EA633223E3F5FEABC52B0FA02A97CBBDF36CDA2FBB77E6306CD27AFC73E16CB1432A8A4B84D4B490A286EBEAEA6E363535095B5B5B7FE9E9E939E2F1783E4926937B8AC5E2CECDCDCD1DD96CF65DC7B8F1EFD26017303706CFCD0670D7EA51ECBB06E3A573B87FFEC7925C268E5F6F16FB04028144A3D11C9F9999D9CBC7ADF04EC6AC5E1FE8047C830876DF061E7621D87E05E6DF4EA3A4BF85F08D0B08516760EC6A7BC9EBF0F97CFB3299CCEE0AEF7E68EECE1954C093012C597AB1E4A61152DD20E915E0EF1463D9A0C0A25C08478F3C2993C91ADC6EF7A7E974FABD0A3F3536A22D98340067C223712D1E5FFC0998374371FE34F07414F38FB488332A4C693A532D2D2DBFBB5CAECFB6F3F6519A2E32FA2DFD9C9ED4E10503E3953A24D45244D412D8AFFE8AB936015C7AF5FFF201BBF5CF928506C2062C5A7488B13AA42774447E14D1E17664593D1687EEC1D9A7587D33FEC6C6C62EBFCDD20EBB09981DC318550387A80608D0B85F730208D29831DC21DA14F019B4499E773A9D9FAFAFAFBFCFE7CFF3DE71A30E2E0BC9FF0142037220E5C6649B18F08F60A5578AEA9F7DF8B6C184E793BD2BCDCDCD171D0EC717159E7F87C97E0D83C014D13F8A55CF08664D4A94FC46CCB23472960E9CD5C5215025B0605666442251A3DD6EFF726D6DED033E3ECFDB69DD38B827A46E135863E488F6FF816546B9B5C6328B807702218F15DC883A4751D4659665BFDACE3B68ED38221CB2CE7E2C750900E6164A8352445597F15C21445C274586E9006719CEF3BD6CB3D9BEDECE3B691D83C51836DC7D48890F01778E01774F02F27340772DA0ADC7EA5FB508997ACB6FF27C1F3BFA542C166240CC8A88824254760AF392EF3177E9109E361E45567C10B38DDF2138AC2C4B2412015FBF4A7CFE1F058D0336D2AC403142DC1CB10560939F933BF31CD2BE512062456A9AF957A954FE100E87ABF9772307AACAE5F25BF95C7ECF82DF6A781998B444A64C5C941D4AC5586D2638741B2BA17EE4630F80B2937CAF8E94D7EBDD9F48243E2A140A6FFF07637B01D9"/>
+							<Prp name="name" type="S" value="Aliases.calc"/>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="key" type="S" value="{EFF58AAD-28AE-4B15-9370-6711CC0BE2F2}"/>
+			<Prp name="type" type="S" value="{79147B28-EE20-4294-B773-1D3787FBF37B}"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3"/>
+			<Prp name="key" type="S" value="{F1784118-E69D-4CDB-A110-9FC36B296304}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
