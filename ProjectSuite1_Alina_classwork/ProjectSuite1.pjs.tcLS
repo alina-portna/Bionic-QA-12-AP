@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{33621583-4a08-4167-b5ab-083150a3435a}">
+				<Prp name="relpath" type="S" value="Project_Alina\Project_Alina.mds.tcLS"/>
+			</Node>
+			<Node name="{51329526-a838-488e-92c2-7137bbab8a0f}">
+				<Prp name="relpath" type="S" value="Project1\Project1.mds.tcLS"/>
+			</Node>
+			<Node name="{6ebc3de0-0a09-4ee5-828d-fe5304adf641}">
+				<Prp name="relpath" type="S" value="Project2\Project2.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{34796906-9F15-443B-8DF2-E50AE87BA929}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

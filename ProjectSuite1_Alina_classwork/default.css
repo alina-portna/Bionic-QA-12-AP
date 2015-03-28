@@ -1,0 +1,117 @@
+@media all {
+
+html
+	{
+	height: 99%;
+	margin: 0;
+	padding: 0;
+	}
+
+body
+	{
+	height: 100%;
+	background-color: White;
+	margin: 5;
+	padding: 0;
+	overflow: hidden;
+	}
+	
+body, table, td, div, p, pre, a, select 
+	{
+	font-family: Arial, Tahoma;
+	font-size: 8pt; 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.singleFrame 
+	{ 
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #999999; 
+	background-color: White;
+	}    
+
+.cellCaption 
+	{ 
+	text-indent: 8;	
+	height: 19;	
+	background-color: #CCCCCC; 
+	color: #444444; 
+	padding-top: 2;	
+	cursor: default;
+	}
+
+.tableHeaderCell
+	{
+	height: 19;	
+	background-color: #CCCCCC;
+	color: #444444; 
+	padding-top: 2;	
+	cursor: pointer;
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #999999; 
+	}
+	
+.tableBody
+	{
+	/* background-color: #EEEEEE; */
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #999999; 
+	padding: 2;
+	overflow: auto;
+	}
+	
+.cellValue
+	{
+	padding-left: 5;	
+	height: 19;	
+	vertical-align: top;
+	}
+	 
+
+.detailsBody
+	{
+	background-color: #EEEEEE;
+	}
+
+.linkCell
+	{
+	cursor: pointer;
+	text-decoration: underline;
+	text-indent: 4;	
+	height: 19;	
+	}
+
+.fakeLinkCell
+	{
+	text-indent: 4;	
+	height: 19;	
+	}
+
+.treeNodeCaption
+	{
+	text-transform: capitalize;
+	border-width: 1;
+	border-color: white;
+	border-style: solid;
+	padding: 1 5 1 2;
+	cursor: pointer;
+	}
+	
+.treeNode
+	{
+	margin: 0;
+	cursor: pointer;
+	width: 100%;
+	}
+
+.selectedRow
+	{
+	background-color: #EEEEEE;
+	}
+
+}
