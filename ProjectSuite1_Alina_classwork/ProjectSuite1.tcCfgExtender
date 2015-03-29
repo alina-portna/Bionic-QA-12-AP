@@ -36,11 +36,17 @@
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
+							<Prp name="editor" type="S" value="{21B0B246-B2F1-4402-9BBF-B90F4476DCD6}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
+					</Node>
+					<Node name="1">
+						<Node name="editor">
 							<Node name="0">
-								<Prp name="col" type="I" value="32"/>
-								<Prp name="line" type="I" value="11"/>
+								<Prp name="col" type="I" value="38"/>
+								<Prp name="line" type="I" value="60"/>
 								<Prp name="sellength" type="I" value="0"/>
-								<Prp name="selstart" type="I" value="209"/>
+								<Prp name="selstart" type="I" value="1522"/>
 								<Prp name="windowchar" type="I" value="0"/>
 								<Prp name="windowline" type="I" value="0"/>
 							</Node>
@@ -48,7 +54,7 @@
 						</Node>
 						<Prp name="edititem" type="S" value="{C6A4F4F5-5D7F-4687-B3F1-3E25290DB4B5}"/>
 					</Node>
-					<Prp name="docking" type="H" value="617162696EFDBD0701000000BA0100007801730C74F177F6E66480023120FD859981419C0926828F2E6484C8DEF17EF6DEBDF5A3F3E2CEEB574ADFC872325A002580A630DC54DDDDB6E6CE44EF6DD7D6F11FBD71FF6C12503C0A281EC6CAC0108D69050B3ECB4072FFA1E010D09C1358F878F5831C3B0BAA62E2E9ED138C3398DC5AD8E27D33BA3426801C560494C37018D0A10CA1799925860C0CB4751DD461C453003C31490E"/>
+					<Prp name="docking" type="H" value="617162696EB92611010000005D0200007801730C74F177F6E664800231206DCBC2C020CE0413C1478B4055DDF17EF6DEBDF5A3F3E2CEEB574ADFC87232DE6664606006EABCA9BABB6DCD9D89DEDBAEADE33F7AE3FE5949A07814503C8C9581211AD30AA0C5F8C17F28380434E70450293A1FAF6E907DF3A12ADC366D50FCB889C965F6FE9DFC2E6577AE811C560494C37018175030B824B1A8442120313D958181B64E04B96E1688008289A7B74F30CE60726B618BF7CDE8D29880D389C0B06408CDCB2C31A487EB80E1443C00007B4568F1"/>
 					<Prp name="enabled" type="B" value="0"/>
 				</Node>
 			</Node>

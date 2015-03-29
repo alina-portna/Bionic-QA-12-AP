@@ -20,18 +20,12 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
-			<Node name="{17dd6f43-9dc2-4a70-aedb-7b7d60a1fd09}">
-				<Prp name="relpath" type="S" value="Homework1_AP_1_v2\Homework1_AP_1_v2.mds.tcLS"/>
-			</Node>
-			<Node name="{34b79b82-0476-47ce-b7cf-65c802aeaa37}">
-				<Prp name="relpath" type="S" value="Homework2_AP_v2\Homework2_AP_v2.mds.tcLS"/>
-			</Node>
-			<Node name="{757f64c5-ce4b-4ac8-bad8-adf8372f76db}">
-				<Prp name="relpath" type="S" value="Homework1_AP\Homework1_AP.mds.tcLS"/>
+			<Node name="{374057b7-b64c-4180-b809-5a523afa34be}">
+				<Prp name="relpath" type="S" value="Homework2_AlinaPortna\Homework2_AlinaPortna.mds.tcLS"/>
 			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{C6140960-E72F-489F-8F20-9AE9D841BE35}"/>
-				<Prp name="relpath" type="S" value="Log"/>
+				<Prp name="key" type="S" value="{40319547-C967-4D10-9DD1-FC78660AC267}"/>
+				<Prp name="relpath" type="S" value="C:\Documents and Settings\Tester\My Documents\TestComplete 7 Projects\ProjectSuiteofHomework2\Log"/>
 			</Node>
 			<Node name="variables"/>
 		</Node>
